@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+header #logo {
+    font-size: 1.6rem;
+    float: left;
+    width: 70%;
+}
+
+header #logo span {
+    color: #a14c09;
+}
+
+header.link {
+    font-size: 1.6rem;
+    float: right;
+}
+
+header nav a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+header nav a:hover {
+    opacity: 0.8;
+    color: #a14c09;
+    border-bottom: #1E1E1E 1px solid;
+    padding: 2px;
+}
+
+main {
+    margin: 3rem auto 0;
+    height: 800px;
+    min-height: 350px;
+    background: url(assets/images/wave.svg);
+    background-position: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+main>* {
+    display: inline;
+}
+
+main section {
+    float: left;
+    margin-top: 3rem;
+    margin-left: 10%;
+    width: 30%;
+}
+
+main section h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1em;
+    margin-bottom: 30px;
+}
+
+main section h1 span {
+    color: #a14c09;
+    font-size: 4.2rem;
+}
+
+main section p {
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+main section button {
+    border: none;
+    outline: none;
+    color: #FFF;
+    background-color: #a14c09;
+    padding: 16px 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 160px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+main img {
+    min-width: 56vw;
+    min-height: 60%;
+    max-height: 80%;
+    width: 100%;
+}
+
+main section button:hover {
+    opacity: 0.8;
+}
+
+#image-container {
+    float: right;
+    width: 60%;
+}
+
+
+/* MENU SECTION  */
+
+.menu-section {
+    background-color: #FAC000;
+    min-height: 100vh;
+}
+
+#menu-header {
+    align-items: center;
+    padding: 10px;
+    padding-left: 25em;
+    margin: auto;
+    width: 80%;
+}
+
+#menu-header h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+#menu-header h3 span {
+    color: #a14c09;
+}
+
+#img-menu-container>* {
+    display: inline-block;
+    justify-content: center;
+    margin: auto;
+    padding: 0 5%;
+    width: 100%;
+}
+
+#img-menu-container ul {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+
+#img-menu-container li {
+    width: 100%;
+}
+
+#img-menu-container ul li img {
+    max-height: 15em;
+    overflow: hidden;
+    height: 100%;
+    width: 33%;
+    overflow: hidden;
+    object-fit: fill;
+    margin: 0;
+}
+
+#img-menu-container ul li img.left {
+    float: left;
+    width: 33%
+}
+
+#img-menu-container ul li img.right {
+    float: right;
+    width: 34%;
+}
+
+
+/* footer  */
+
+.footer {
+    width: 100%;
+    display: inline-block;
+    padding: 30px 30px 20px 30px;
+    color: rgb(201, 188, 188);
+    background-color: #1E1E1E;
+    background-color: #1E1E1E;
+}
+
+.footer__addr {
+    float: left;
+    width: 50%;
+}
+
+.footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.footer__logo span {
+    color: #a14c09;
+}
+
+.footer__addr h2 {
+    margin: 1.5em auto;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer.right {
+    float: right;
+}
+
+.nav__item_right {
+    float: right;
+    width: 30%;
+}
+
+.nav__item_left {
+    float: left;
+}
+
+.nav__title {
+    font-weight: 400;
+    font-size: 15px;
+    color: #a14c09;
+}
+
+.nav__title span {
+    margin: 0 1rem;
+}
+
+.footer address {
+    font-style: normal;
+    color: #999;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.nav__item_right {
+    float: right;
+    width: 20%;
+}
+
+.footer__nav>* {
+    margin-right: 1.25em;
+}
+
+.nav__ul a {
+    color: #999;
+}
+
+.nav__ul a:hover {
+    text-decoration: underline;
+}
+
+.legal {
+    border-top: .025em solid #fff;
+    padding: 1.25em 1.25em 0 0;
+    display: inline-block;
+    color: #999;
+    width: 100%;
+}
+
+.legal p {
+    float: left;
+}
+
+.legal span {
+    float: right;
+}
